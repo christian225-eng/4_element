@@ -1,0 +1,244 @@
+/* Importation des polices */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variables */
+:root {
+    --color-primary: #363A2B;
+    --color-secondary: #4F6234;
+    --color-tertiary: #D9C7B3;
+    --color-input: #E1D2C2;
+    --color-text: #444;
+    --color-background: #E5E0DC;
+    --font-title: 'Playfair Display', serif;
+    --font-text: 'karla', sans-serif;
+}
+
+
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General*/
+body {
+    overflow-x: hidden;
+    background-color: #e4d8cd;
+}
+
+.logo {
+    width: 50%;
+}
+
+.section {
+    margin-top: 13%;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-family: var(--font-title);
+    color: #363A2B;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--color-primary);
+}
+
+.mb-5 p {
+    font-size: 1rem;
+    width: 80%;
+}
+
+h4 {
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+
+
+.m-33 {
+    margin-left: 33%;
+}
+
+.button-primary {
+    background-color: var(--color-primary);
+    color: #F5F5F5;
+}
+
+.button-secondary {
+    background-color: var(--color-secondary);
+    color: #F5F5F5;
+}
+
+p {
+    font-weight: 400;
+    font-family: karla;
+    font-size: 20px;
+}
+
+/* ------------------------ */
+/* HEADER */
+/* ------------------------ */
+
+.space {
+    width: 90%;
+    margin: auto;
+}
+
+.d-flex.align-items-center.gap-4 img {
+    width: 20%;
+}
+
+.background {
+    background-color: #E5E0DCE3;
+
+}
+
+.btn-reserver:hover {
+    background-color: #4E6959;
+}
+
+/* HERO */
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: var(--font-title);
+    color: var(--color-tertiary);
+}
+
+/* ------------------------ */
+/* DISPONIBILITE*/
+/* ------------------------ */
+.disponibilite {
+    width: 36%;
+    background-color: var(--color-tertiary);
+    margin: auto;
+    border-radius: 18px;
+    padding: 2%;
+    position: absolute;
+    top: 100%;
+    left: 31%;
+}
+
+label {
+    font-family: var(--font-text);
+    font-weight: bold;
+    font-size: 0.90rem;
+}
+
+.form-style {
+    background-color: #d9c7b3;
+    border: none;
+}
+
+.form-info {
+    background-color: #e1d2c2;
+    color: #656366;
+    font-size: 18px;
+}
+
+.position-btn {
+    top: 89%;
+    left: 39%;
+}
+
+/* ------------------------ */
+/* SECTIONS HÔTELS */
+/* ------------------------ */
+.margin-section {
+    margin-top: 9%;
+}
+
+.img-size {
+    width: 82%;
+}
+
+/* ------------------------ */
+/* CONCEPT ET ARCHITECTURE
+/* ------------------------ */
+
+.size {
+    width: 80%;
+}
+
+.style-card {
+    border: none;
+    background-color: #e4d8cd;
+}
+
+.style-img-card {
+    width: 104%;
+    height: 38em;
+    max-width: 120%;
+    max-height: 147%;
+    object-fit: cover;
+}
+
+/* ------------------------ */
+/* Footer
+/* ------------------------ */
+.col.mb-3 p {
+    font-size: 0.90rem;
+}
+
+footer.logo {
+    width: 20%;
+}
+
+.footer-main {
+    font-size: 14px;
+    /* Remplace tous les small */
+}
+
+.footer-logo {
+    max-height: 50px;
+    width: auto;
+}
+
+.footer-social {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-title {
+    margin-bottom: 28px;
+    color: var(--color-primary);
+    font-family: var(--font-title);
+}
+
+.footer-contact-list .nav-item.pt-3 {
+    padding-top: 20px !important;
+}

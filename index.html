@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>4 Éléments</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles personnalisés -->
+    <link rel="stylesheet" href="assets/assets-4-elements/css/styles.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="py-3 background">
+        <div class="space d-flex justify-content-between align-items-center">
+
+            <!-- Logo  Navigation -->
+            <div class="d-flex align-items-center gap-4 ">
+                <img src="assets/assets-4-elements/logo/logo/logo-noir.png" alt="Logo">
+
+                <nav>
+                    <ul class=" nav">
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#">Feu</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#">Air</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#">Terre</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#">Eau</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Liens sociaux et boutons -->
+            <div class="d-flex align-items-center gap-4">
+
+                <!-- Réseaux sociaux -->
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-dark"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-dark"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                </div>
+
+                <!-- Connexion et réservation -->
+                <div>
+                    <button class="btn btn-success">Réserver</button>
+                    <a href="#" class="text-dark me-3 text-decoration-none">Se connecter</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!--section video-->
+    <section class="video">
+        <div class="video-container">
+            <video autoplay muted loop class="video-background">
+                <source src="assets/assets-4-elements/images/images/home.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos.
+            </video>
+            <div class="container h-100">
+                <div class="d-flex h-100 align-items-center">
+                    <div class="w-100 text-white text-end">
+                        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Recherche dispo -->
+    <section class="disponibilite ">
+        <h4>Rechercher une disponibilité</h4>
+        <form action="" id="formulaire">
+            <div class="form-control form-style">
+                <div class="row">
+                    <div class="col">
+                        <label class="labeldisponibilite" for="">Choisir un Hotel</label>
+                        <select name="" id="" class="form-control form-info">
+                            <option value="">Hotel Terre</option>
+                            <option value="">Hotel Feu</option>
+                            <option value="">Hotel Eau</option>
+                        </select>
+                    </div>
+
+                    <div class="col">
+                        <label class="labeldisponibilite" for="">Nb de personnes</label>
+                        <input type="number" value="1" class="form-control form-info">
+                    </div>
+
+                    <div class="col">
+                        <label for="">Choisir une date d'arrivée</label>
+                        <input type="date" class="form-control form-info">
+                    </div>
+                </div>
+
+                <div class="row text-start position-absolute position-btn">
+                    <div class="col">
+                        <button class="btn button-primary ">Chercher</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <!-- HOTEL FEU -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 info">
+                    <div class="p-5">
+                        <h2>Hôtel Feu</h2>
+                        <div class="d-flex">
+                            <div>
+                                <img src="assets/assets-4-elements/images/images/icon/map-pin.svg" alt="picto-position">
+                            </div>
+                            <div>
+                                <p>Finlande</p>
+                            </div>
+
+                        </div>
+                        <p>L'hôtel Feu ne se situe bien sûr pas sur un volcan, mais en
+                            Finlande.
+                            Feu de laterre volcanique crachant non loin de là ses geysers, feu des volcans à
+                            l'horizon
+                            et,
+                            bien entendu, feu des aurores boréales que vous pourrez admirer tous les soirs par le toit
+                            vitré
+                            de votre chambre.</p>
+
+                        <button class="btn button-primary ">Réserver</button>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex gap-5">
+                    <img src="assets/assets-4-elements/images/images/hotel_feu1.jpg" class="img-size" alt="Hôtel Feu">
+
+                    <img src="assets/assets-4-elements/images/images/hotel_feu2.jpg" class="img-size" alt="Hôtel Feu">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HOTEL AIR -->
+    <section class="section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6 d-flex gap-5 " style="margin-left: -30rem; ">
+                    <img src="assets/assets-4-elements/images/images/hotel_air2.jpg" class="img-size" alt="Hôtel Feu">
+
+                    <img src="assets/assets-4-elements/images/images/hotel_air.jpg" class="img-size" alt="Hôtel Feu">
+                </div>
+
+                <div class="col-md-6 p-5 m-33">
+                    <div class="p-4">
+                        <h2>Hôtel Air</h2>
+                        <div class="row">
+                            <div class="d-flex">
+                                <img src="assets/assets-4-elements/images/images/icon/map-pin.svg" alt="picto-position">
+                                <p>Brésil</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>L'hôtel Air se situe à la frontière du Brésil et du Pérou.
+                                C'est un concept architectural innovant qui a permis une implantation à la cîme de la
+                                forêt pour offrir un panorama vertigineux et cotoyerchaque matin, de votre chambre
+                                (avec ou sans piscine), les oiseaux à votre réveil.</p>
+                        </div>
+                        <button class="btn button-primary ">Réserver</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HOTEL TERRE -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 info">
+                    <div class="p-5">
+                        <h2>Hôtel Terre</h2>
+                        <div class="d-flex">
+                            <div>
+                                <img src="assets/assets-4-elements/images/images/icon/map-pin.svg" alt="picto-position">
+                            </div>
+                            <div>
+                                <p>Thailande</p>
+                            </div>
+                        </div>
+                        <p>L'hôtel Terre est situé dans des grottes naturelles en Thaïlande. Retaillées et
+                            aménagées avec beaucoup de soin, les chambres de l'hôtel vous offriront soit la
+                            fraîcheur et l'apaisement à près de vingt mètres de profondeur, soit un hâvre de paix
+                            ouvrant sur l'horizon de la mer au loin.</p>
+                        <button class="btn button-primary ">Réserver</button>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex gap-5">
+                    <img src="assets/assets-4-elements/images/images/hotel_terre.jpg" class="img-size"
+                        alt="Hôtel Terre">
+
+                    <img src="assets/assets-4-elements/images/images/hotel_terre2.jpg" class="img-size"
+                        alt="Hôtel Terre">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HOTEL EAU -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex gap-5 " style="margin-left: -30rem;">
+                    <img src="assets/assets-4-elements/images/images/hotel_eau2.jpg" class="img-size" alt="Hôtel Feu">
+
+                    <img src="assets/assets-4-elements/images/images/hotel_eau.jpg" class="img-size" alt="Hôtel Feu">
+                </div>
+
+                <div class="col-md-6 p-5 m-33">
+                    <div class="p-4">
+                        <h2>Hôtel Eau</h2>
+                        <div class="row">
+                            <div class="d-flex">
+                                <img src="assets/assets-4-elements/images/images/icon/map-pin.svg" alt="picto-position">
+                                <p>Île du pacifique </p>
+                            </div>
+                        </div>
+                        <div>
+                            <p>L'hôtel Eau est situé sur une île de 2 kilomètres carrés très exactement
+                                équidistante de Vladivostok et de Los Angeles. C'est le milieu duPacifique. Vous y
+                                disposerez de votre plage, de votre bateau et de votre majordome privés. Votre chambre
+                                est un caisson immergé à deux mètres sous l'eau.</p>
+                        </div>
+                        <button class="btn button-primary ">Réserver</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONCEPT ET ARCHITECTURE -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card style-card">
+                        <h3 class="mb-5">Le Concept</h3>
+                        <img class="size" src="assets/assets-4-elements/images/images/concept.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="size">Depuis l'ouverture de ses 4 hôtels en 2012, 4
+                                Éléments s'est démarqué en proposant des établissements exceptionnels dans des lieux
+                                uniques, symbolisant les quatre éléments : terre, eau, air et feu. Ces hôtels insolites,
+                                construits dans des endroits inattendus à travers la planète, incarnent notre volonté de
+                                révolutionner le tourisme en intégrant luxe, aventure et vision à long terme. Chacun de
+                                nos établissements offre un environnement et un service uniques, alliant la rigueur de
+                                l'hôtellerie de luxe à une proximité quotidienne avec les habitants. Explorez les
+                                environs avec des guides experts tels que des ethnologues, astrophysiciens, géologues et
+                                climatologues. Ce que nous vous proposons n'est pas un simple "tour", mais une véritable
+                                révolution.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card style-card">
+                        <h3 class="mb-5">L'architecture</h3>
+                        <p class="size">L'architecture innovante constitue une étape
+                            supplémentaire vers l'exploration de l'Espace, représentant l'extension de notre
+                            civilisation vers ses aspects les plus avancés. S'immerger dans l'un de nos hôtels, c'est
+                            embrasser une expérience sensorielle où l'on peut se ressourcer au contact des matières
+                            représentatives des quatre éléments. C'est une opportunité de se découvrir en harmonie avec
+                            la terre, l'air, l'eau et le feu. Notre approche unique vise à transcender les frontières
+                            traditionnelles du voyage en offrant une expérience qui éveille les sens et connecte les
+                            visiteurs à la quintessence de chaque élément. En plongeant dans nos établissements, les
+                            clients sont invités à explorer l'intersection fascinante entre l'innovation architecturale
+                            etla nature environnante.</p>
+
+                        <img class="size" src="assets/assets-4-elements/images/images/architecture.jpg"
+                            alt="Card image cap">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- MOT DU CREATEUR -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card style-card">
+                        <h3>Le mot du createur</h3>
+                        <div class="card-body size">
+                            <p>L'architecture innovante représente une avancée vers l'exploration de l'Espace,
+                                symbolisant l'extension de notre civilisation vers ses plus grandes aspirations.
+                                S'immerger dans nos hôtels, c'est vivre une expérience sensorielle, se ressourcer au
+                                contact des matières des quatre éléments. C'est une découverte en harmonie avec la
+                                terre, l'air, l'eau et le feu, où chaque détail architectural offre une connexion
+                                profonde avec ces éléments fondamentaux. Les témoignages de nos visiteurs soulignent
+                                l'impact transformateur de cette expérience immersive, décrivant une reconnexion unique
+                                avec la nature et une redécouverte de soi au sein de cet environnement exceptionnel.
+                                Cette approche révolutionnaire redéfinit les attentes du voyage, offrant non seulement
+                                un hébergement luxueux, mais une véritable aventure sensorielle qui transcende les
+                                limites conventionnelles du tourisme.</p>
+                            <p class="fw-bold">Thing
+                                Xuan Thuan</p>
+                            <p class="card-text">Co fondateur de 4 elements</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="card-img-top style-img-card" src="assets/assets-4-elements/images/images/image (71).jpg"
+                        alt="Card image cap">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MODALE -->
+    <div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reservationModalLabel">Formulaire de réservation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+
+                <div class="modal-body">
+                    <form id="form-reservation">
+
+                        <!-- Identité -->
+                        <div class="mb-3">
+                            <label for="firstname" class="form-label">Nom et prénom :</label>
+                            <input type="text" class="form-control" id="firstname">
+                            <div id="firstname-error" class="text-danger small error-message"></div>
+                        </div>
+
+                        <!-- Adresse -->
+                        <div class="mb-3">
+                            <label class="form-label">Adresse postale :</label>
+                            <input type="text" class="form-control mb-2" id="street-number" placeholder="Numéro de rue">
+                            <div id="street-number-error" class="text-danger small error-message mb-2"></div>
+
+                            <input type="text" class="form-control mb-2" id="street" placeholder="Nom de la rue">
+                            <div id="street-error" class="text-danger small error-message mb-2"></div>
+
+                            <input type="text" class="form-control mb-2" id="postal-code" placeholder="Code postal">
+                            <div id="postal-code-error" class="text-danger small error-message mb-2"></div>
+
+                            <input type="text" class="form-control" id="city" placeholder="Ville">
+                            <div id="city-error" class="text-danger small error-message"></div>
+                        </div>
+
+                        <!-- Contact -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email :</label>
+                            <input type="email" class="form-control" id="email">
+                            <div id="email-error" class="text-danger small error-message"></div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Téléphone :</label>
+                            <input type="tel" class="form-control" id="phone">
+                            <div id="phone-error" class="text-danger small error-message"></div>
+                        </div>
+
+                        <!-- Réservation -->
+                        <div class="mb-3">
+                            <label for="hotel" class="form-label">Hôtel :</label>
+                            <select id="hotel" class="form-select">
+                                <option value="">-- Sélectionnez un hôtel --</option>
+                                <option value="feu">Hôtel Feu</option>
+                                <option value="air">Hôtel Air</option>
+                                <option value="terre">Hôtel Terre</option>
+                                <option value="eau">Hôtel Eau</option>
+                            </select>
+                            <div id="hotel-error" class="text-danger small error-message"></div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="chambre" class="form-label">Type de chambre (Hôtel Feu) :</label>
+                            <select id="chambre" class="form-select">
+                                <option value="">-- Sélectionnez une chambre --</option>
+                                <option value="igloo">Igloo (500€/nuit)</option>
+                                <option value="suite">Suite Laponne (850€/nuit)</option>
+                            </select>
+                            <div id="chambre-error" class="text-danger small error-message"></div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="nbPersonne" class="form-label">Nombre de personnes :</label>
+                            <input type="number" class="form-control" id="nbPersonne">
+                            <div id="nbPersonne-error" class="text-danger small error-message"></div>
+                        </div>
+
+                        <div class="row g-2 mb-3">
+                            <div class="col-md-6">
+                                <label for="date-arrivee" class="form-label">Date d'arrivée :</label>
+                                <input type="date" class="form-control" id="date-arrivee">
+                                <div id="date-arrivee-error" class="text-danger small error-message"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="date-depart" class="form-label">Date de départ :</label>
+                                <input type="date" class="form-control" id="date-depart">
+                                <div id="date-depart-error" class="text-danger small error-message"></div>
+                            </div>
+                        </div>
+
+                        <!-- Options -->
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="chauffeur">
+                                <label class="form-check-label" for="chauffeur">Chauffeur (+11€/jour)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="ptitDej">
+                                <label class="form-check-label" for="ptitDej">Petit déjeuner (+15€/pers/jour)</label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="guide">
+                                <label class="form-check-label" for="guide">Visite guidée du domaine (+20€)</label>
+                            </div>
+                        </div>
+
+                        <!-- Repas -->
+                        <div class="mb-3">
+                            <label class="form-label">Repas :</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="repas-midi">
+                                <label class="form-check-label" for="repas-midi">Déjeuner (+25€/pers)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="repas-soir">
+                                <label class="form-check-label" for="repas-soir">Dîner (+25€/pers)</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="repas-ponctuel">
+                                <label class="form-check-label" for="repas-ponctuel">Repas ponctuel (paiement sur
+                                    place)</label>
+                            </div>
+                        </div>
+
+                        <!-- Régime alimentaire -->
+                        <div id="diet-section" class="mb-3 d-none">
+                            <label for="diet" class="form-label">Régime alimentaire :</label>
+                            <select id="diet" class="form-select">
+                                <option value="">--- Choisissez ---</option>
+                                <option value="vegan">Végan</option>
+                                <option value="vegetarien">Végétarien</option>
+                                <option value="aucun">Aucun</option>
+                            </select>
+                        </div>
+
+                        <!-- Restrictions -->
+                        <div id="restrictions-section" class="mb-3 d-none">
+                            <label class="form-label">Restrictions alimentaires :</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gluten">
+                                <label class="form-check-label" for="gluten">Sans gluten</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="lactose">
+                                <label class="form-check-label" for="lactose">Sans lactose</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="autres">
+                                <label class="form-check-label" for="autres">Autres allergies / intolérances</label>
+                            </div>
+                        </div>
+
+                        <!-- Prix total -->
+                        <div class="mb-3">
+                            <label class="form-label">Prix total :</label>
+                            <div class="fw-bold"><span id="total">0</span> €</div>
+                        </div>
+
+                        <div id="valide" class="recap mb-3"></div>
+                        <div id="result" class="text-danger mb-3"></div>
+
+                        <!-- Boutons -->
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-primary">Envoyer</button>
+                            <button type="reset" class="btn btn-outline-secondary">Réinitialiser</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modale de récapitulatif -->
+    <div class="modal fade" id="recapModal" tabindex="-1" aria-labelledby="recapModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="recapModalLabel">Récapitulatif de votre réservation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body" id="recap-modal-content">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Modifier</button>
+                    <button type="button" class="btn btn-primary" id="proceed-to-payment">Passer au paiement</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer -->
+
+    <footer class="container-fluid footer-main">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top bg-light">
+            <!-- Colonne Logo -->
+            <div class="mb-3 footer-logo-col">
+                <img src="assets/assets-4-elements/logo/logo/logo-noir.png" class="footer-logo">
+                <p class="text-muted footer-description">N'attendez plus pour vivre l'experience 4<br>éléments de temps
+                    d'une nuit</p>
+                <div class="footer-social">
+                    <img src="assets/assets-4-elements/images/images/icon/instagram.svg" alt="Instagram"
+                        class="social-icon">
+                    <img src="assets/assets-4-elements/images/images/icon/facebook.svg" alt="Facebook"
+                        class="social-icon">
+                </div>
+            </div>
+
+            <!-- Colonne vide -->
+            <div class="col mb-3"></div>
+
+            <!-- Colonne Contact -->
+            <div class="col mb-3 footer-contact-col">
+                <h5 class="footer-title fw-bold">contact</h5>
+                <ul class="nav flex-column footer-contact-list">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Adresse : Avenue 8 exemple</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ouverture : Tous les jours de
+                            9h à 20H30</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tel : 33 08 280 28002</a></li>
+                    <li class="nav-item mb-2 pt-3"><a href="#" class="nav-link p-0 text-muted"><button
+                                class="btn btn-success btn-sm">Réserver en ligne</button></a></li>
+                </ul>
+            </div>
+
+            <!-- Colonne vide -->
+            <div class="col mb-3"></div>
+
+            <!-- Colonne Liens -->
+            <div class="col mb-3 footer-links-col">
+                <ul class="nav flex-column footer-links-list">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mentions légales</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Crédits</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CGV</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Confidentialité</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--  JS -->
+    <script src="/assets/assets-4-elements/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
